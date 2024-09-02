@@ -1,0 +1,41 @@
+.Movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 10px; /* Space between cards */
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0px 200px; /* Add some padding for better visual spacing */
+}
+
+.Movie {
+    flex: 1 1 calc(20% - 10px); /* Flex basis for four items per row */
+    max-width: calc(25% - 20px); /* Ensure no more than four per row */
+    box-sizing: border-box; /* Include padding and border in width */
+    background-color: #f3eeee; /* Add a background color */
+    padding: 5px; /* Add padding */
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 10px; /* Add margin between cards */
+}
+
+.movie-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add some rounding to the image */
+}
+
+.movie-title {
+    color: #0e0b0ba1;
+    font-size: 13px; /* Adjust font size */
+    /* margin: 10px 0; Add margin */
+}
+
+.movie-year {
+    color: #777;
+    font-size: 12px;
+    /* margin: 0; */
+}

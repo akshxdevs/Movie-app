@@ -1,0 +1,67 @@
+.oneMovies {
+    background-color: #000;
+    display: flex;
+
+    padding: 60px 100px 100px 150px; 
+}
+
+.oneMovie {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+
+.oneMovie:hover {
+    transform: translateY(-10px);
+}
+
+.img-div {
+    background: white;
+    margin: 0;
+    padding: 3.5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneMovie-img {
+
+    height: 50vh; 
+    border-radius: 4px;
+}
+
+.Download-btn{
+    width: 250px;
+    height: 35px;
+    background-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Download-btn:hover {
+    background-color: darkgreen;
+}
+
+.Watchnow-btn{
+    width: 250px;
+    height: 35px;
+    background-color: green;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Watchnow-btn:hover {
+    background-color: darkgreen;
+}

@@ -1,0 +1,45 @@
+.main-contexts{
+    text-align: center; 
+}
+
+.main-header{
+    font-size: 50px;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.welcome-text{
+    color: #fff;
+    padding-top: 20px;
+    width: 50%; 
+    max-width: 800px; 
+    min-width: 800px; 
+    margin: 0 auto; 
+    
+}
+
+.link-text{
+    color: rgb(8, 115, 216);
+}
+
+.popular-text{
+    color: #fff;
+    
+}
+
+.morefeaturred-text{
+    margin-left: 800px;
+    color: #fff;
+
+}
+
+#vertical-line{
+    width :80%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    background-color: rgb(244, 240, 240);
+}
